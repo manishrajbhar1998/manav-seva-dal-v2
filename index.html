@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manav Seva Dal</title>
     <link rel="shortcut icon" href="" type="image/x-icon" />
-    <!-- Lightbox Popup -->
-    <link rel="stylesheet" href="" />
 
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,6 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fancybox img gallary -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css" />
@@ -383,12 +384,12 @@
                             </div>
 
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
+                        <button class="carousel-control-prev d-md-block d-sm-none d-none" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
+                        <button class="carousel-control-next d-md-block d-sm-none d-none" type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         </button>
                     </div>
@@ -396,11 +397,132 @@
             </div>
         </div>
     </section>
+
+    <!-- Gallary section -->
+    <section class="gallary_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center pb-5">
+                    <h2 class="section-title">Our Gallary</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iure tempore saepe voluptatem
+                        laborum pariatur.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/land1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/land1.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/land2.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/land2.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/land3.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/land3.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/about.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/about.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/land1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/car1.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/land1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/socity-3.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/land1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/socity-5.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="item col-6 col-md-3 mb-3">
+                    <a href="assets/manav/land1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="assets/manav/socity-8.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="view-more float-end btn main-btn">view more &nbsp;&nbsp;<i
+                            class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <section class="footer_wrapper mt-3 mb-md-0">
+        <div class="container px-5 px-lg-0">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Cantact</h5>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-phone-volume"></i>+91 8800307024 | 96325417854</li>
+                            <li><i class="fas fa-envelope-square"></i> office.manavdharam.org</li>
+                            <li><i class="fas fa-map-marker-alt"></i>Manav Utthan Sewa Samiti, 2/12 East Punjabi
+                                Bagh,<br />
+                                New Delhi, India-110026</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Some Usefull link</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="https://www.manavdharam.org/">manavdharam.org</a></li>
+                        <li><a href="https://missioneducation.manavdharam.org/">missioneducation.org</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <h5>NewsLetter</h5>
+                    <div class="form-group mb-5">
+                        <input type="email" class="form-control bg-transparent" placeholder="Enter your email Id">
+                        <button type="submit" class="btn main-btn">Subscribe</button>
+                    </div>
+                    <h5>Visit Our Socail media</h5>
+                    <ul class="social_icons">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid copyright_section">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center"><span>&copy; Manav Seva Dal</span> All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Jquery CDN-->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-
-    <!-- Lightbox Popup -->
 
     <!-- Bootstrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -409,6 +531,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
+
+    <!-- fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
     <!-- Custom JS -->
     <script src="js/main.js"></script>
